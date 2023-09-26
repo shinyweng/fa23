@@ -28,8 +28,8 @@ The purpose of the project is to give students experience in both open-ended dat
 
 There are **six** deliverables in the graduate project element of the course. 
 <ul>
-<li><b>Group Formation + Research Proposal:</b> You will form a project group and will submit a google form stating your research proposal. Please see <a href="#group-formation--research-proposal">below</a> for more information. </li>
-<li><b>Checkpoint 1: EDA + Internal Peer Review:</b> You will need to submit a write-up + code for Exploratory Data Analysis on your dataset. You will also have to submit an internal peer review. Please see <a href="#checkpoint-1-eda--internal-peer-review">below</a> for more information. </li>
+<li><b>Group Formation + Research Proposal:</b> You will form a project group and will submit a google form stating your research proposal.</li>
+<li><b>Checkpoint 1: EDA + Internal Peer Review:</b> You will need to submit a write-up + code for Exploratory Data Analysis on your dataset. You will also have to submit an internal peer review. Please see the below section on this checkpoint for more information. </li>
 <li><b>Checkpoint 2: Mandatory Check-In:</b> You will need to write a one-pager of your progress (with a focus on modeling approaches your team explored) and review it with a course staff member. More information will be announced later. </li>
 <li><b>Checkpoint 3: Project Report First Draft + Internal Peer Review:</b> This will be your first draft; you will be required to submit a report of your EDA and modeling along with any code necessary to reproduce your results. You will also have to submit an internal peer review. More information will be announced later.</li>
 <li><b>External Peer-Review:</b> You will need to provide other project teams with feedback on their projects. More information will be announced later.</li>
@@ -44,7 +44,7 @@ There are **six** deliverables in the graduate project element of the course.
 
 | Deadline (at 11:59pm Pacific)| Event / Deliverable | Link | Grading Weight |
 |--------------------------	|---------------------------------------------	|---------------------------------------------	|-----------|
-| 10/06 | Group Formation + Research Proposal| [Google Form](https://forms.gle/KnJPVvbcr6j6wt7GA) | 5% |
+| 10/06 | Group Formation + Research Proposal| | 5% |
 | 10/20 | Checkpoint 1: EDA | | 10% |
 | Week of 11/6 | Checkpoint 2: Mandatory Check-In  | | 7.5% |
 | 11/24 | Checkpoint 3: Project Report First Draft	| | 20% |
@@ -174,15 +174,24 @@ You can access all the data within the `Topic 3/Dataset A` through the `Topic 3/
 
 #### Dataset A: Fitness Recommendation
 {:.no_toc}
-- `fitness_recommendation.txt` contains a link to access the fitness data from sequential sensors for various workouts. ([documentation](https://sites.google.com/eng.ucsd.edu/fitrec-project/home))
+
+These datasets consist of user sports records collected from Endomondo. They include a rich variety of sequential sensor data, such as metrics like heart rate, speed, GPS coordinates. Additionally, the datasets contain information about the type of sport, user gender, and weather conditions, which encompass temperature and humidity.
+
+- Relevant data can be found in `Topic 3/Dataset A` on the Google Drive. You may also visit the ([main page](https://sites.google.com/eng.ucsd.edu/fitrec-project/home)) for documentation and links to download the dataset.
 
 #### Dataset B: Amazon Recommendation
 {:.no_toc}
-- `amazon_reviews.txt` contains a link to access the data on a subset of Amazon product reviews. The report includes metadata such as ratings and text on the reviews and general information about the product. ([documentation](https://nijianmo.github.io/amazon/index.html))
+
+These datasets comprise Amazon reviews, which encompass ratings, textual content, and helpfulness votes for a wide variety of Amazon categories, such as fashion, electronics, and pet supplies. They also contain product metadata, including descriptions, category information, price, brand, and image features.
+
+- Instructions on how to access the data is located in `Topic 3/Dataset B` on the Google Drive. You may also directly visit the ([main page](https://nijianmo.github.io/amazon/index.html)), which includes general information about the dataset, such as metadata and categories, as well as the dataset request process. 
 
 #### Dataset C: Application Usage Recommendation
 {:.no_toc}
-- `frappe.csv` and `meta.csv` contain data on mobile app usage for users in various contexts. For general information about the dataset, please refer to `frappe_README.txt`.
+
+The frappe dataset contains a context-aware app usage log consisting of 96,203 entries by 957 users for 4,082 apps used in various contexts. These contexts include factors such as time of day, country, number of downloads, and cost.
+
+- `frappe.csv` and `meta.csv` contain data on mobile app usage for users in various contexts. For general information about the dataset, please refer to `frappe_README.txt` and `stats.ipynb`.
 
 ## Group Formation + Research Proposal
 
@@ -269,7 +278,7 @@ studentIDs/
 Please use student IDs joined by `_` as the name for the top-level directory. The analysis notebooks must be runnable within this directory structure. If the narrative PDF includes any figures that are created in the analysis notebooks, the figures should be saved to `figures/` by the analysis notebooks.
 
 ## Rubrics
-This section includes a rubric for how different project deliverables are going to be graded. This section will be updated as we get further along the project timeline.
+This section includes a rubric for how different project deliverables are going to be graded. This section will be updated as the project timeline progresses.
 
 ### Group formation + Research Proposal (4%)
 - One paragraph description of the data that will be used in the project (1%).
